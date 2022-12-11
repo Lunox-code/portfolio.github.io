@@ -18,7 +18,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <div>Lunox's Portfolio </div>
+        <div>Lunox's Portfolio</div>
       </main>
 
       <footer>
