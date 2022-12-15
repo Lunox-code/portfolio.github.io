@@ -5,27 +5,22 @@ function Header() {
   return (
     <div>
       <Image src="../../assets/wave.svg" />
-      <Container>
+      <Container className="mt-3">
         <Row
           xs={1}
           md={2}
           className="d-flex align-items-center justify-content-center text-center border"
         >
           <Col>
-            <br />
-            <div>
-              <p>Hello World,</p>
-              <p>I am Moisés Obando</p>
-              <p>I am Creative. I Love to Develop. I Love Design.</p>
+            <p>Hello World,</p>
+            <p>I am Moisés Obando</p>
+            <p>I am Creative. I Love to Develop. I Love Design.</p>
 
-              {/* <Button variant="primary" size="sm">
+            {/* <Button variant="primary" size="sm">
                 DOWNLOAD MY CV
               </Button> */}
-            </div>
-            <br />
           </Col>
           <Col>
-            <br />
             <Image
               src="../../assets/photo.jpeg"
               width={350}
@@ -33,8 +28,6 @@ function Header() {
               responsive
               thumbnail
             />
-            <br />
-            <br />
           </Col>
         </Row>
       </Container>

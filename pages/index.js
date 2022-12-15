@@ -20,10 +20,8 @@ export default function Home() {
       </Head>
 
       <main>
-        <div>
-          <Header />
-          <About />
-        </div>
+        <Header />
+        <About />
       </main>
 
       <footer>

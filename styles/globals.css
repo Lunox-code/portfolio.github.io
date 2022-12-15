@@ -5,7 +5,7 @@ main {
     background: black;
 }
 
-p {
+p, h2, span {
   color: aliceblue;
 }
 
