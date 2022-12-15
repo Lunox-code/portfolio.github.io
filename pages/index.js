@@ -1,4 +1,6 @@
 import Head from "next/head";
+import About from "./components/About";
+import Header from "./components/Header";
 
 export default function Home() {
   return (
@@ -18,7 +20,10 @@ export default function Home() {
       </Head>
 
       <main>
-        <div>Lunox's Portfolio</div>
+        <div>
+          <Header />
+          <About />
+        </div>
       </main>
 
       <footer>
