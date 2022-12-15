@@ -5,14 +5,14 @@ function About() {
   return (
     <div>
       {/* About text */}
-      <Container className="mt-3 border">
+      <Container className="mt-5 border">
         <Row className="justify-content-md-center text-center">
           <Col>
             <div class="container page-title text-center">
               <h2 class="text-center">About me</h2>
-              <span class="title-head-subtitle">
+              <p>
                 -- I design and code beautiful things, and I love what I do. --
-              </span>
+              </p>
             </div>
           </Col>
         </Row>
@@ -20,10 +20,34 @@ function About() {
       {/* END About text */}
 
       {/* About info */}
-      <Container className="mt-3 border">
-        <Row className="justify-content-md-center text-center">
-          <Col>1 of 2</Col>
-          <Col>2 of 2</Col>
+      <Container className="border">
+        <Row xs={1} md={2} className="justify-content-md-center">
+          <Col className="text-center">
+            <Image src="../../assets/dev.gif" style={{ height: 320 }}></Image>
+          </Col>
+          <Col>
+            {/* FIX CENTER TEXT MOBILE */}
+            <Row xs={1} md={2} className="mt-5 mb-5">
+              {/* END FIX CENTER TEXT MOBILE */}
+              <Col>
+                <p>Name: Moises Obando</p>
+                <p>Age: 29 years old</p>
+                <p>Languages: English, Spanish</p>
+                <p>Experience: 3 years</p>
+              </Col>
+              <Col>
+                <p>Phone: +506 84025666</p>
+                <p>Email: Lunox.code@gmail.com</p>
+                <p>Nationality: Costa Rican</p>
+                <p>Nationality: Costa Rican</p>
+              </Col>
+            </Row>
+            <Container className="text-center">
+              <Button variant="primary" size="lg">
+                DOWNLOAD MY CV
+              </Button>
+            </Container>
+          </Col>
         </Row>
       </Container>
       {/* END About info */}

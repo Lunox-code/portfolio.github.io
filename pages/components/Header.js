@@ -5,7 +5,7 @@ function Header() {
   return (
     <div>
       <Image src="../../assets/wave.svg" />
-      <Container className="mt-3">
+      <Container className="mt-5 mb-5">
         <Row
           xs={1}
           md={2}
@@ -15,10 +15,6 @@ function Header() {
             <p>Hello World,</p>
             <p>I am Moisés Obando</p>
             <p>I am Creative. I Love to Develop. I Love Design.</p>
-
-            {/* <Button variant="primary" size="sm">
-                DOWNLOAD MY CV
-              </Button> */}
           </Col>
           <Col>
             <Image
