@@ -1,11 +1,11 @@
 import React from "react";
-import { Image, Container, Row, Col, Button } from "react-bootstrap";
+import { Image, Container, Row, Col } from "react-bootstrap";
 
 function Header() {
   return (
     <div>
       <Image src="../../assets/wave.svg" />
-      <Container className="mt-5 mb-5">
+      <Container className="mt-3 mb-3">
         <Row
           xs={1}
           md={2}
@@ -16,7 +16,8 @@ function Header() {
             <p>I am Moisés Obando</p>
             <p>I am Creative. I Love to Develop. I Love Design.</p>
           </Col>
-          <Col>
+
+          <Col className="mb-3">
             <Image
               src="../../assets/photo.jpeg"
               width={350}

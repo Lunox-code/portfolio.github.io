@@ -1,6 +1,7 @@
 import Head from "next/head";
 import About from "./components/About";
 import Header from "./components/Header";
+import Skills from "./components/Skills";
 
 export default function Home() {
   return (
@@ -17,11 +18,19 @@ export default function Home() {
           crossorigin="anonymous"
         />
         {/* END React Boostrap */}
+
+        {/* Social Networks */}
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        ></link>
+        {/* END Social Networks */}
       </Head>
 
       <main>
         <Header />
         <About />
+        <Skills />
       </main>
 
       <footer>

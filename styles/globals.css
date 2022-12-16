@@ -5,7 +5,7 @@ main {
     background: black;
 }
 
-p, h2 {
+p, h2, hr {
   color: aliceblue;
 }
 
