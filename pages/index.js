@@ -19,12 +19,12 @@ export default function Home() {
         />
         {/* END React Boostrap */}
 
-        {/* Social Networks */}
+        {/* FontAwesome Social Networks */}
         <link
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
           rel="stylesheet"
         ></link>
-        {/* END Social Networks */}
+        {/* END FontAwesome Social Networks */}
       </Head>
 
       <main>

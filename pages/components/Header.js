@@ -3,8 +3,6 @@ import { Image, Container, Row, Col } from "react-bootstrap";
 // Import the FontAwesomeIcon component
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 // import the icons you need
-import { faAmbulance, faAnchor } from "@fortawesome/free-solid-svg-icons";
-
 import {
   faFacebook,
   faGithub,
@@ -26,34 +24,37 @@ function Header() {
             <p>Hello World,</p>
             <p>I am Moisés Obando</p>
             <p>I am Creative. I Love to Develop. I Love Design.</p>
-
-            <Row className="p-5 border">
-              <Col>
-                <FontAwesomeIcon
-                  icon={faFacebook}
-                  style={{ fontSize: 30, color: "white" }}
-                  className="text-center"
-                />
-              </Col>
-              <Col>
-                <FontAwesomeIcon
-                  icon={faGithub}
-                  style={{ fontSize: 30, color: "white" }}
-                />
-              </Col>
-              <Col>
-                <FontAwesomeIcon
-                  icon={faLinkedin}
-                  style={{ fontSize: 30, color: "white" }}
-                />
-              </Col>
-              <Col>
-                <FontAwesomeIcon
-                  icon={faInstagram}
-                  style={{ fontSize: 30, color: "white" }}
-                />
-              </Col>
-            </Row>
+            <a href="https://www.linkedin.com/in/lunox/" target="_blank">
+              <FontAwesomeIcon
+                icon={faLinkedin}
+                style={{ fontSize: 30, color: "white" }}
+                className="text-center p-2"
+              />
+            </a>
+            <a href="https://github.com/Lunox-code" target="_blank">
+              <FontAwesomeIcon
+                icon={faGithub}
+                style={{ fontSize: 30, color: "white" }}
+                className="text-center p-2"
+              />
+            </a>
+            <a
+              href="https://www.instagram.com/lunox.code/?hl=en"
+              target="_blank"
+            >
+              <FontAwesomeIcon
+                icon={faInstagram}
+                style={{ fontSize: 30, color: "white" }}
+                className="text-center p-2"
+              />
+            </a>
+            <a href="https://web.facebook.com/lunox.moiso/" target="_blank">
+              <FontAwesomeIcon
+                icon={faFacebook}
+                style={{ fontSize: 30, color: "white" }}
+                className="text-center p-2"
+              />
+            </a>
           </Col>
 
           <Col className="mb-3">
