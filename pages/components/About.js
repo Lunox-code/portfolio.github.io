@@ -19,7 +19,11 @@ function About() {
         {/* About info */}
         <Row xs={1} md={2} className="justify-content-md-center">
           <Col className="text-center">
-            <Image src="../../assets/dev.gif" style={{ height: 320 }}></Image>
+            <Image
+              src="../../assets/dev.gif"
+              alt=" "
+              style={{ height: 320 }}
+            ></Image>
           </Col>
           <Col>
             {/* FIX CENTER TEXT MOBILE */}

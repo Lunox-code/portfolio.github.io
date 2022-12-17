@@ -60,6 +60,7 @@ function Header() {
           <Col className="mb-3">
             <Image
               src="../../assets/photo.jpeg"
+              alt=" "
               width={350}
               roundedCircle
               responsive
