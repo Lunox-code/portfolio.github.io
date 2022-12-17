@@ -13,7 +13,7 @@ import {
 function Header() {
   return (
     <div>
-      <Image src="../../assets/wave.svg" />
+      <Image src="../../assets/wave.svg" alt=" " />
       <Container className="mt-3 mb-3">
         <Row
           xs={1}
@@ -24,14 +24,18 @@ function Header() {
             <p>Hello World,</p>
             <p>I am Moisés Obando</p>
             <p>I am Creative. I Love to Develop. I Love Design.</p>
-            <a href="https://www.linkedin.com/in/lunox/" target="_blank">
+            <a
+              href="https://www.linkedin.com/in/lunox/"
+              alt=" "
+              target="_blank"
+            >
               <FontAwesomeIcon
                 icon={faLinkedin}
                 style={{ fontSize: 30, color: "white" }}
                 className="text-center p-2"
               />
             </a>
-            <a href="https://github.com/Lunox-code" target="_blank">
+            <a href="https://github.com/Lunox-code" alt=" " target="_blank">
               <FontAwesomeIcon
                 icon={faGithub}
                 style={{ fontSize: 30, color: "white" }}
@@ -40,6 +44,7 @@ function Header() {
             </a>
             <a
               href="https://www.instagram.com/lunox.code/?hl=en"
+              alt=" "
               target="_blank"
             >
               <FontAwesomeIcon
@@ -48,7 +53,11 @@ function Header() {
                 className="text-center p-2"
               />
             </a>
-            <a href="https://web.facebook.com/lunox.moiso/" target="_blank">
+            <a
+              href="https://web.facebook.com/lunox.moiso/"
+              alt=" "
+              target="_blank"
+            >
               <FontAwesomeIcon
                 icon={faFacebook}
                 style={{ fontSize: 30, color: "white" }}
