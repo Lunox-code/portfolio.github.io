@@ -28,6 +28,7 @@ function Header() {
               href="https://www.linkedin.com/in/lunox/"
               alt=" "
               target="_blank"
+              rel="noreferrer"
             >
               <FontAwesomeIcon
                 icon={faLinkedin}
@@ -35,7 +36,12 @@ function Header() {
                 className="text-center p-2"
               />
             </a>
-            <a href="https://github.com/Lunox-code" alt=" " target="_blank">
+            <a
+              href="https://github.com/Lunox-code"
+              alt=" "
+              target="_blank"
+              rel="noreferrer"
+            >
               <FontAwesomeIcon
                 icon={faGithub}
                 style={{ fontSize: 30, color: "white" }}
@@ -46,6 +52,7 @@ function Header() {
               href="https://www.instagram.com/lunox.code/?hl=en"
               alt=" "
               target="_blank"
+              rel="noreferrer"
             >
               <FontAwesomeIcon
                 icon={faInstagram}
@@ -57,6 +64,7 @@ function Header() {
               href="https://web.facebook.com/lunox.moiso/"
               alt=" "
               target="_blank"
+              rel="noreferrer"
             >
               <FontAwesomeIcon
                 icon={faFacebook}
