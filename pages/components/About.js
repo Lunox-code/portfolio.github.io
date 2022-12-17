@@ -20,7 +20,7 @@ function About() {
         <Row xs={1} md={2} className="justify-content-md-center">
           <Col className="text-center">
             <Image
-              src="../../assets/dev.gif"
+              src="https://lunox-code.github.io/portfolio.github.io/assets/dev.gif"
               alt=" "
               style={{ height: 320 }}
             ></Image>

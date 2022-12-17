@@ -13,7 +13,10 @@ import {
 function Header() {
   return (
     <div>
-      <Image src="../../assets/wave.svg" alt=" " />
+      <Image
+        src="https://lunox-code.github.io/portfolio.github.io/assets/wave.svg"
+        alt=" "
+      />
       <Container className="mt-3 mb-3">
         <Row
           xs={1}
@@ -76,7 +79,7 @@ function Header() {
 
           <Col className="mb-3">
             <Image
-              src="../../assets/photo.jpeg"
+              src="https://lunox-code.github.io/portfolio.github.io/assets/photo.jpeg"
               alt=" "
               width={350}
               roundedCircle
