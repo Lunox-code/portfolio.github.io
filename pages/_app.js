@@ -5,11 +5,9 @@ config.autoAddCss = false; // Tell Font Awesome to skip adding the CSS automatic
 
 import { useEffect } from "react";
 import AOS from "aos";
-
 import "aos/dist/aos.css";
 
 function MyApp({ Component, pageProps }) {
-  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>;
   useEffect(() => {
     AOS.init();
     AOS.refresh();
