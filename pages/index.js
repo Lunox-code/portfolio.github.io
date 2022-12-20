@@ -2,6 +2,9 @@ import Head from "next/head";
 import About from "./components/About";
 import Header from "./components/Header";
 import Skills from "./components/Skills";
+// AOS Library
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export default function Home() {
   return (
@@ -25,6 +28,13 @@ export default function Home() {
           rel="stylesheet"
         ></link>
         {/* END FontAwesome Social Networks */}
+
+        {/* AOS Library */}
+        <link
+          href="https://unpkg.com/aos@2.3.1/dist/aos.css"
+          rel="stylesheet"
+        ></link>
+        {/* END AOS Library */}
       </Head>
 
       <main>
@@ -34,7 +44,10 @@ export default function Home() {
       </main>
 
       <footer>
-        <div></div>
+        <div>
+          <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+          <script>AOS.init(); AOS.refresh();</script>
+        </div>
       </footer>
     </div>
   );

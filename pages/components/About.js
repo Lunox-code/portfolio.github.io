@@ -5,8 +5,17 @@ function About() {
   return (
     <div>
       {/* About text */}
-      <Container className="mt-3 border">
-        <Row className="justify-content-md-center text-center">
+      <Container
+        data-aos-mirror="true"
+        data-aos-once="false"
+        data-aos-offset="200"
+        className="border"
+      >
+        <Row
+          data-aos="zoom-in"
+          data-aos-duration="2000"
+          className="mb-5 justify-content-md-center text-center"
+        >
           <Col>
             <h2 class="text-center">About me</h2>
             <p>
@@ -18,7 +27,11 @@ function About() {
 
         {/* About info */}
         <Row xs={1} md={2} className="justify-content-md-center">
-          <Col className="text-center">
+          <Col
+            data-aos="flip-left"
+            data-aos-duration="2000"
+            className="mb-5 text-center"
+          >
             <Image
               src="https://lunox-code.github.io/portfolio.github.io/assets/dev.gif"
               alt=" "
@@ -49,24 +62,28 @@ function About() {
             <Row className="mb-3">
               {/* END FIX CENTER TEXT MOBILE */}
               <Col>
-                <Button variant="cv" size="sm">
-                  DOWNLOAD CV
-                </Button>
+                <div data-aos="zoom-in-up">
+                  <Button variant="cv" size="sm">
+                    DOWNLOAD CV
+                  </Button>
+                </div>
               </Col>
               <Col>
-                <Button
-                  href="https://github.com/Lunox-code"
-                  target="_blank"
-                  variant="light"
-                  size="sm"
-                >
-                  PORTFOLIO
-                </Button>
+                <div data-aos="zoom-in-up" data-aos-duration="1000">
+                  <Button
+                    href="https://github.com/Lunox-code"
+                    target="_blank"
+                    variant="light"
+                    size="sm"
+                  >
+                    PORTFOLIO
+                  </Button>
+                </div>
               </Col>
             </Row>
           </Col>
         </Row>
-        <hr></hr>
+        <hr className="mt-5"></hr>
       </Container>
       {/* END About info */}
     </div>

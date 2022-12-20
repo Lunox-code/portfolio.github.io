@@ -4,44 +4,67 @@ import { Container, Row, Col, ProgressBar } from "react-bootstrap";
 function Skills() {
   return (
     <div>
-      <Container className="mt-3 mb-3 justify-content-md-center text-center border">
-        <Row className="mt-5 mb-5">
+      <Container className="mt-3 mb-5 justify-content-md-center text-center border">
+        <Row className="mt-3 mb-5">
           <Col>
             <h2>Front End Skills</h2>
           </Col>
         </Row>
-        <Row>
+        <Row
+          data-aos-anchor="#example-anchor"
+          data-aos-offset="500"
+          data-aos-once="false"
+          className="mb-5"
+        >
           <Col sm>
             <p>HTML 5</p>
-            <ProgressBar animated now={45} variant="progressBar" />
+            <div data-aos="fade-left" data-aos-duration="1000">
+              <ProgressBar animated now={45} variant="progressBar" />
+            </div>
             <br></br>
             <p>JavaScript</p>
-            <ProgressBar animated now={45} variant="progressBar" />
+            <div data-aos="fade-left" data-aos-duration="1200">
+              <ProgressBar animated now={45} variant="progressBar" />
+            </div>
             <br></br>
             <p>CSS 3</p>
-            <ProgressBar animated now={45} variant="progressBar" />
+            <div data-aos="fade-left" data-aos-duration="1400">
+              <ProgressBar animated now={45} variant="progressBar" />
+            </div>
             <br></br>
           </Col>
           <Col sm>
             <p>React JS</p>
-            <ProgressBar animated now={45} variant="progressBar" />
+            <div data-aos="fade-left" data-aos-duration="1600">
+              <ProgressBar animated now={45} variant="progressBar" />
+            </div>
             <br></br>
             <p>React-Bootstrap</p>
-            <ProgressBar animated now={45} variant="progressBar" />
+            <div data-aos="fade-left" data-aos-duration="1800">
+              <ProgressBar animated now={45} variant="progressBar" />
+            </div>
             <br></br>
             <p>JSON</p>
-            <ProgressBar animated now={45} variant="progressBar" />
+            <div data-aos="fade-left" data-aos-duration="2000">
+              <ProgressBar animated now={45} variant="progressBar" />
+            </div>
             <br></br>
           </Col>
           <Col sm>
             <p>GitHub</p>
-            <ProgressBar animated now={45} variant="progressBar" />
+            <div data-aos="fade-left" data-aos-duration="2200">
+              <ProgressBar animated now={45} variant="progressBar" />
+            </div>
             <br></br>
             <p>Figma</p>
-            <ProgressBar animated now={45} variant="progressBar" />
+            <div data-aos="fade-left" data-aos-duration="2400">
+              <ProgressBar animated now={45} variant="progressBar" />
+            </div>
             <br></br>
             <p>Photoshop</p>
-            <ProgressBar animated now={45} variant="progressBar" />
+            <div data-aos="fade-left" data-aos-duration="2600">
+              <ProgressBar animated now={45} variant="progressBar" />
+            </div>
             <br></br>
           </Col>
         </Row>
