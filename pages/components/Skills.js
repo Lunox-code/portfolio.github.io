@@ -10,59 +10,54 @@ function Skills() {
             <h2>Front End Skills</h2>
           </Col>
         </Row>
-        <Row
-          data-aos-anchor="#example-anchor"
-          data-aos-offset="500"
-          data-aos-once="false"
-          className="mb-5"
-        >
+        <Row className="mb-5">
           <Col sm>
             <p>HTML 5</p>
-            <div data-aos="fade-left" data-aos-duration="1000">
+            <div data-aos="fade-up" data-aos-duration="1000">
               <ProgressBar animated now={45} variant="progressBar" />
             </div>
             <br></br>
             <p>JavaScript</p>
-            <div data-aos="fade-left" data-aos-duration="1200">
+            <div data-aos="fade-up" data-aos-duration="1200">
               <ProgressBar animated now={45} variant="progressBar" />
             </div>
             <br></br>
             <p>CSS 3</p>
-            <div data-aos="fade-left" data-aos-duration="1400">
+            <div data-aos="fade-up" data-aos-duration="1400">
               <ProgressBar animated now={45} variant="progressBar" />
             </div>
             <br></br>
           </Col>
           <Col sm>
             <p>React JS</p>
-            <div data-aos="fade-left" data-aos-duration="1600">
+            <div data-aos="fade-up" data-aos-duration="1600">
               <ProgressBar animated now={45} variant="progressBar" />
             </div>
             <br></br>
             <p>React-Bootstrap</p>
-            <div data-aos="fade-left" data-aos-duration="1800">
+            <div data-aos="fade-up" data-aos-duration="1800">
               <ProgressBar animated now={45} variant="progressBar" />
             </div>
             <br></br>
             <p>JSON</p>
-            <div data-aos="fade-left" data-aos-duration="2000">
+            <div data-aos="fade-up" data-aos-duration="2000">
               <ProgressBar animated now={45} variant="progressBar" />
             </div>
             <br></br>
           </Col>
           <Col sm>
             <p>GitHub</p>
-            <div data-aos="fade-left" data-aos-duration="2200">
+            <div data-aos="fade-up" data-aos-duration="2200">
               <ProgressBar animated now={45} variant="progressBar" />
             </div>
             <br></br>
             <p>Figma</p>
-            <div data-aos="fade-left" data-aos-duration="2400">
+            <div data-aos="fade-up" data-aos-duration="2400">
               <ProgressBar animated now={45} variant="progressBar" />
             </div>
             <br></br>
             <p>Photoshop</p>
-            <div data-aos="fade-left" data-aos-duration="2600">
+            <div data-aos="fade-up" data-aos-duration="2600">
               <ProgressBar animated now={45} variant="progressBar" />
             </div>
             <br></br>

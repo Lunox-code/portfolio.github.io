@@ -17,13 +17,7 @@ function Header() {
         src="https://lunox-code.github.io/portfolio.github.io/assets/wave.svg"
         alt=" "
       />
-      <Container
-        data-aos-mirror="true"
-        data-aos-once="false"
-        data-aos-offset="200"
-        data-aos-duration="1200"
-        className="mt-3 mb-5"
-      >
+      <Container className="mt-3 mb-5">
         <Row
           xs={1}
           md={2}
@@ -33,14 +27,7 @@ function Header() {
             <p>Hello World,</p>
             <p>I am Moisés Obando</p>
             <p>I am Creative. I Love to Develop. I Love Design.</p>
-            <div
-              data-aos="fade-right"
-              data-aos-mirror="true"
-              data-aos-once="false"
-              data-aos-offset="200"
-              data-aos-duration="1200"
-              className="mb-4"
-            >
+            <div data-aos="fade-right" className="mb-5">
               <a
                 href="https://www.linkedin.com/in/lunox/"
                 alt=" "
@@ -92,14 +79,7 @@ function Header() {
             </div>
           </Col>
 
-          <Col
-            data-aos="fade-left"
-            data-aos-mirror="true"
-            data-aos-once="false"
-            data-aos-offset="200"
-            data-aos-duration="1200"
-            className="mb-3"
-          >
+          <Col data-aos="fade-left" className="mb-3">
             <Image
               src="https://lunox-code.github.io/portfolio.github.io/assets/photo.jpeg"
               alt=" "

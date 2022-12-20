@@ -5,18 +5,9 @@ function About() {
   return (
     <div>
       {/* About text */}
-      <Container
-        data-aos-mirror="true"
-        data-aos-once="false"
-        data-aos-offset="200"
-        className="border"
-      >
-        <Row
-          data-aos="zoom-in"
-          data-aos-duration="2000"
-          className="mb-5 justify-content-md-center text-center"
-        >
-          <Col>
+      <Container className="border">
+        <Row className="mb-5 justify-content-md-center text-center">
+          <Col data-aos="zoom-in" data-aos-duration="2000">
             <h2 class="text-center">About me</h2>
             <p>
               -- I design and code beautiful things, and I love what I do --
@@ -69,7 +60,7 @@ function About() {
                 </div>
               </Col>
               <Col>
-                <div data-aos="zoom-in-up" data-aos-duration="1000">
+                <div data-aos="zoom-in-up" data-aos-duration="2000">
                   <Button
                     href="https://github.com/Lunox-code"
                     target="_blank"
