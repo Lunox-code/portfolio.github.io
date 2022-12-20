@@ -44,11 +44,11 @@ export default function Home() {
       </main>
 
       <footer>
-        <div>
-          <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-          <script>AOS.init(); AOS.refresh();</script>
-        </div>
+        <div></div>
       </footer>
+      <div>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      </div>
     </div>
   );
 }
