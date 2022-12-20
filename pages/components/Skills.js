@@ -13,35 +13,35 @@ function Skills() {
         <Row>
           <Col sm>
             <p>HTML 5</p>
-            <ProgressBar animated now={45} />
+            <ProgressBar animated now={45} variant="progressBar" />
             <br></br>
             <p>JavaScript</p>
-            <ProgressBar animated now={45} />
+            <ProgressBar animated now={45} variant="progressBar" />
             <br></br>
             <p>CSS 3</p>
-            <ProgressBar animated now={45} />
+            <ProgressBar animated now={45} variant="progressBar" />
             <br></br>
           </Col>
           <Col sm>
             <p>React JS</p>
-            <ProgressBar animated now={45} />
+            <ProgressBar animated now={45} variant="progressBar" />
             <br></br>
             <p>React-Bootstrap</p>
-            <ProgressBar animated now={45} />
+            <ProgressBar animated now={45} variant="progressBar" />
             <br></br>
             <p>JSON</p>
-            <ProgressBar animated now={45} />
+            <ProgressBar animated now={45} variant="progressBar" />
             <br></br>
           </Col>
           <Col sm>
             <p>GitHub</p>
-            <ProgressBar animated now={45} />
+            <ProgressBar animated now={45} variant="progressBar" />
             <br></br>
             <p>Figma</p>
-            <ProgressBar animated now={45} />
+            <ProgressBar animated now={45} variant="progressBar" />
             <br></br>
             <p>Photoshop</p>
-            <ProgressBar animated now={45} />
+            <ProgressBar animated now={45} variant="progressBar" />
             <br></br>
           </Col>
         </Row>

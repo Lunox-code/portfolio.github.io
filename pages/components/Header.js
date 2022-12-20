@@ -35,7 +35,7 @@ function Header() {
             >
               <FontAwesomeIcon
                 icon={faLinkedin}
-                style={{ fontSize: 30, color: "white" }}
+                style={{ fontSize: 40, color: "D65A31" }}
                 className="text-center p-2"
               />
             </a>
@@ -47,7 +47,7 @@ function Header() {
             >
               <FontAwesomeIcon
                 icon={faGithub}
-                style={{ fontSize: 30, color: "white" }}
+                style={{ fontSize: 40, color: "D65A31" }}
                 className="text-center p-2"
               />
             </a>
@@ -59,7 +59,7 @@ function Header() {
             >
               <FontAwesomeIcon
                 icon={faInstagram}
-                style={{ fontSize: 30, color: "white" }}
+                style={{ fontSize: 40, color: "D65A31" }}
                 className="text-center p-2"
               />
             </a>
@@ -71,7 +71,7 @@ function Header() {
             >
               <FontAwesomeIcon
                 icon={faFacebook}
-                style={{ fontSize: 30, color: "white" }}
+                style={{ fontSize: 40, color: "D65A31" }}
                 className="text-center p-2"
               />
             </a>

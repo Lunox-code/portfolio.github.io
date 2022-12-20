@@ -49,7 +49,7 @@ function About() {
             <Row className="mb-3">
               {/* END FIX CENTER TEXT MOBILE */}
               <Col>
-                <Button variant="primary" size="sm">
+                <Button variant="cv" size="sm">
                   DOWNLOAD CV
                 </Button>
               </Col>

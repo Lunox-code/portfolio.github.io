@@ -1,11 +1,19 @@
+/* Color palettes:
+#222831, #393E46, #D65A31, #EEEEEE */ 
+
 html,
 main {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-    background: black;
+    background: #222831;
 }
 
 p, h2, hr, i {
-  color: aliceblue;
+  color: #EEEEEE;
+}
+
+.btn-cv, .bg-progressBar {
+  color: #EEEEEE;
+  background-color: #D65A31;
 }
 
