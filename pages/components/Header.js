@@ -27,7 +27,7 @@ function Header() {
             <p>Hello World,</p>
             <p>I am Moisés Obando</p>
             <p>I am Creative. I Love to Develop. I Love Design.</p>
-            <div data-aos="fade-right" className="mb-5">
+            <div data-aos="zoom-in-right" className="mb-5">
               <a
                 href="https://www.linkedin.com/in/lunox/"
                 alt=" "
@@ -79,7 +79,7 @@ function Header() {
             </div>
           </Col>
 
-          <Col data-aos="fade-left" className="mb-3">
+          <Col data-aos="fade-up" className="mb-3">
             <Image
               src="https://lunox-code.github.io/portfolio.github.io/assets/photo.jpeg"
               alt=" "
