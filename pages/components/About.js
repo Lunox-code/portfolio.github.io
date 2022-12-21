@@ -6,7 +6,7 @@ function About() {
     <div>
       {/* About text */}
       <Container className="border">
-        <Row className="mb-5 justify-content-md-center text-center">
+        <Row className="mb-5 mt-5 justify-content-md-center text-center">
           <Col data-aos="zoom-in" data-aos-duration="2000">
             <h2 class="text-center">About me</h2>
             <p>
@@ -18,20 +18,16 @@ function About() {
 
         {/* About info */}
         <Row xs={1} md={2} className="justify-content-md-center">
-          <Col
-            data-aos="flip-left"
-            data-aos-duration="2000"
-            className="mb-5 text-center"
-          >
+          <Col className="mb-4 text-center">
             <Image
-              src="https://lunox-code.github.io/portfolio.github.io/assets/dev.gif"
+              src="../../assets/dev.gif"
               alt=" "
-              style={{ height: 320 }}
+              style={{ height: 350 }}
             ></Image>
           </Col>
           <Col>
             {/* FIX CENTER TEXT MOBILE */}
-            <Row xs={1} md={2} className="mt-3 mb-3">
+            <Row xs={1} md={2} className="mt-5 mb-5">
               {/* END FIX CENTER TEXT MOBILE */}
               <Col>
                 <p>Name: Moises Obando</p>
@@ -50,7 +46,7 @@ function About() {
               </Col>
             </Row>
 
-            <Row className="mb-3">
+            <Row className="mb-5">
               {/* END FIX CENTER TEXT MOBILE */}
               <Col>
                 <div data-aos="zoom-in-up">
