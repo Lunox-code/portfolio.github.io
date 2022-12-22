@@ -12,13 +12,21 @@ function Skills() {
 
   return (
     <div>
-      <Container className="mt-3 mb-5 justify-content-md-center text-center border">
-        <Row className="mt-3 mb-5">
-          <Col>
-            <h2>Front End Skills</h2>
+      <Container className=" justify-content-md-center text-center">
+        <Row>
+          <Col
+            data-aos="zoom-in"
+            data-aos-duration="2000"
+            className="mb-5 mt-5"
+          >
+            <h2>
+              <b>
+                Front End <span className="skills">Skills</span>
+              </b>
+            </h2>
           </Col>
         </Row>
-        <Row className="mb-5">
+        <Row className="mb-5 mt-5">
           <Col sm>
             <p>HTML 5</p>
             <div data-aos="fade-up" data-aos-duration="1000">
@@ -113,9 +121,10 @@ function Skills() {
                 variant="progressBar"
               />
             </div>
-            <br></br>
           </Col>
         </Row>
+        <br></br>
+        <hr></hr>
       </Container>
     </div>
   );

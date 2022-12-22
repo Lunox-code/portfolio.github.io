@@ -5,10 +5,14 @@ function About() {
   return (
     <div>
       {/* About text */}
-      <Container className="border">
+      <Container>
         <Row className="mb-5 mt-5 justify-content-md-center text-center">
           <Col data-aos="zoom-in" data-aos-duration="2000">
-            <h2 class="text-center">About me</h2>
+            <h2 class="text-center">
+              <b>
+                ABOUT <span className="me">ME</span>
+              </b>
+            </h2>
             <p>
               -- I design and code beautiful things, and I love what I do --
             </p>
@@ -18,7 +22,7 @@ function About() {
 
         {/* About info */}
         <Row xs={1} md={2} className="justify-content-md-center">
-          <Col className="mb-4 text-center">
+          <Col className="mb-5 text-center">
             <Image
               src="https://lunox-code.github.io/portfolio.github.io/assets/dev.gif"
               alt=" "
@@ -30,19 +34,51 @@ function About() {
             <Row xs={1} md={2} className="mt-5 mb-5">
               {/* END FIX CENTER TEXT MOBILE */}
               <Col>
-                <p>Name: Moises Obando</p>
-                <p>Age: 29 years old</p>
-                <p>Languages: English, Spanish</p>
-                <p>Experience: 3 years</p>
+                <p>
+                  <b>NAME: </b>
+                  <br></br>
+                  <span className="info">Moises Obando</span>
+                </p>
+                <p>
+                  <b>AGE: </b>
+                  <br></br>
+                  <span className="info">29 years old</span>
+                </p>
+                <p>
+                  <b>LANGUAGES: </b>
+                  <br></br>
+                  <span className="info">English, Spanish</span>
+                </p>
+                <p>
+                  <b>EXPERIENCE: </b>
+                  <br></br>
+                  <span className="info">3 years</span>
+                </p>
                 {/* <Button variant="primary" size="lg">
                   DOWNLOAD MY CV
                 </Button> */}
               </Col>
               <Col>
-                <p>Phone: +506 84025666</p>
-                <p>Email: Lunox.code@gmail.com</p>
-                <p>Nationality: Costa Rican</p>
-                <p>Based in: Digital Nomad</p>
+                <p>
+                  <b>PHONE: </b>
+                  <br></br>
+                  <span className="info">+506 84025666</span>
+                </p>
+                <p>
+                  <b>EMAIL: </b>
+                  <br></br>
+                  <span className="info">Lunox.code@gmail.com</span>
+                </p>
+                <p>
+                  <b>NATIONALITY: </b>
+                  <br></br>
+                  <span className="info">Costa Rican</span>
+                </p>
+                <p>
+                  <b>BASED IN: </b>
+                  <br></br>
+                  <span className="info">Digital Nomad</span>
+                </p>
               </Col>
             </Row>
 
@@ -70,7 +106,7 @@ function About() {
             </Row>
           </Col>
         </Row>
-        <hr className="mt-5"></hr>
+        <hr className="mt-5 mb-5"></hr>
       </Container>
       {/* END About info */}
     </div>

@@ -8,8 +8,31 @@ main {
     background: #222831;
 }
 
-p, h2, hr, i {
+p, hr {
   color: #EEEEEE;
+  font-size: 19px;
+  
+}
+
+h2, p.iam {
+  color: #EEEEEE;
+  font-size: 40px;
+  
+}
+
+p.iam {
+  color: #EEEEEE;
+  font-size: 28px;
+}
+
+span.info {
+  font-style: italic;
+  font-weight: 100;
+}
+
+span.me, span.skills {
+  color: #D65A31;
+  
 }
 
 .btn-cv, .bg-progressBar {

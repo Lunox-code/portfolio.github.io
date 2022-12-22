@@ -21,13 +21,15 @@ function Header() {
         <Row
           xs={1}
           md={2}
-          className="d-flex align-items-center justify-content-center text-center border"
+          className="d-flex align-items-center justify-content-center text-center"
         >
           <Col>
-            <p>Hello World,</p>
-            <p>I am Moisés Obando</p>
+            <p>HELLO WORLD!</p>
+            <p className="iam">
+              <b>I'M MOISES OBANDO</b>
+            </p>
             <p>I am Creative. I Love to Develop. I Love Design.</p>
-            <div data-aos="zoom-in-right" className="mb-5">
+            <div data-aos="zoom-in-right" className="mb-5 mt-5">
               <a
                 href="https://www.linkedin.com/in/lunox/"
                 alt=" "
@@ -85,7 +87,7 @@ function Header() {
               alt=" "
               width={350}
               roundedCircle
-              responsive
+              responsive="true"
               thumbnail
             />
           </Col>
