@@ -26,7 +26,7 @@ function Header() {
           <Col>
             <p>HELLO WORLD!</p>
             <span className="iam">
-              <b>I'M MOISES OBANDO</b>
+              <b>I AM MOISES OBANDO</b>
             </span>
             <p>I am Creative. I Love to Develop. I Love Design.</p>
             <div data-aos="zoom-in-right" className="mb-5 mt-5">
