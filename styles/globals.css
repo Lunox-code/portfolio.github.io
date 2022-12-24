@@ -41,3 +41,25 @@ span.me, span.skills {
   
 }
 
+
+/* About subtitle */
+span.about {
+  color: #EEEEEE;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  gap: 1rem;
+  width: auto;
+  
+  
+}
+
+span.about::before,
+span.about::after {
+  content: "";
+  border-top: 2px double #D65A31;
+  align-self: center;
+  
+  
+}
+/* END About subtitle */
+

@@ -13,9 +13,13 @@ function About() {
                 ABOUT <span className="me">ME</span>
               </b>
             </h2>
-            <p>
-              -- I design and code beautiful things, and I love what I do --
-            </p>
+            <Row>
+              <Col md={{ span: 6, offset: 3 }}>
+                <span className="about">
+                  I design and code beautiful things, and I love what I do.
+                </span>
+              </Col>
+            </Row>
           </Col>
         </Row>
         {/* END About text */}
