@@ -9,6 +9,7 @@ import {
   faLinkedin,
   faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
+import MovingText from "react-moving-text";
 
 function Header() {
   return (
@@ -28,7 +29,16 @@ function Header() {
             <span className="iam">
               <b>I AM MOISES OBANDO</b>
             </span>
-            <p>I am Creative. I Love to Develop. I Love Design.</p>
+            <div className="movLetter">
+              <MovingText
+                type="typewriter"
+                dataText={[
+                  "I am " + "creative.",
+                  "I love to develop.",
+                  "I love design.",
+                ]}
+              />
+            </div>
             <div data-aos="zoom-in-right" className="mb-5 mt-5">
               <a
                 href="https://www.linkedin.com/in/lunox/"
@@ -38,7 +48,7 @@ function Header() {
               >
                 <FontAwesomeIcon
                   icon={faLinkedin}
-                  style={{ fontSize: 40, color: "D65A31" }}
+                  style={{ fontSize: 40, color: "EEEEEE" }}
                   className="text-center p-2"
                 />
               </a>
@@ -50,7 +60,7 @@ function Header() {
               >
                 <FontAwesomeIcon
                   icon={faGithub}
-                  style={{ fontSize: 40, color: "D65A31" }}
+                  style={{ fontSize: 40, color: "EEEEEE" }}
                   className="text-center p-2"
                 />
               </a>
@@ -62,7 +72,7 @@ function Header() {
               >
                 <FontAwesomeIcon
                   icon={faInstagram}
-                  style={{ fontSize: 40, color: "D65A31" }}
+                  style={{ fontSize: 40, color: "EEEEEE" }}
                   className="text-center p-2"
                 />
               </a>
@@ -74,7 +84,7 @@ function Header() {
               >
                 <FontAwesomeIcon
                   icon={faFacebook}
-                  style={{ fontSize: 40, color: "D65A31" }}
+                  style={{ fontSize: 40, color: "EEEEEE" }}
                   className="text-center p-2"
                 />
               </a>
