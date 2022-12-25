@@ -1,11 +1,16 @@
-import React from "react";
-import { Image, Container, Row, Col, Button } from "react-bootstrap";
+import React, { useState } from "react";
+import { Image, Container, Row, Col, Button, Modal } from "react-bootstrap";
 
 function About() {
+  const [smShow, setSmShow] = useState(false);
+  const [lgShow, setLgShow] = useState(false);
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
   return (
     <div>
-      {/* About text */}
+      {/* About info */}
       <Container>
+        {/* About text */}
         <Row className="mb-5 mt-5 justify-content-md-center text-center">
           <Col data-aos="zoom-in" data-aos-duration="2000">
             <h2 class="text-center">
@@ -24,7 +29,7 @@ function About() {
         </Row>
         {/* END About text */}
 
-        {/* About info */}
+        {/* info & image*/}
         <Row xs={1} md={2} className="justify-content-md-center">
           <Col className="mb-5 text-center">
             <Image
@@ -34,7 +39,7 @@ function About() {
             ></Image>
           </Col>
           <Col>
-            {/* FIX CENTER TEXT MOBILE */}
+            {/* Info */}
             <Row xs={1} md={2} className="mt-5 mb-5">
               {/* END FIX CENTER TEXT MOBILE */}
               <Col>
@@ -85,15 +90,29 @@ function About() {
                 </p>
               </Col>
             </Row>
+            {/* END Info */}
 
+            {/* CV & Portfolio buttons */}
             <Row className="mb-5">
-              {/* END FIX CENTER TEXT MOBILE */}
               <Col>
                 <div data-aos="zoom-in-up">
-                  <Button variant="cv" size="sm">
+                  <Button
+                    variant="cv"
+                    size="sm"
+                    onClick={(handleShow) => setSmShow(true)}
+                  >
                     DOWNLOAD CV
                   </Button>
                 </div>
+                <Modal
+                  size="sm"
+                  show={smShow}
+                  onHide={(handleClose) => setSmShow(false)}
+                >
+                  <Modal.Header closeButton>
+                    <Modal.Title>Working on...</Modal.Title>
+                  </Modal.Header>
+                </Modal>
               </Col>
               <Col>
                 <div data-aos="zoom-in-up" data-aos-duration="2000">
@@ -108,8 +127,10 @@ function About() {
                 </div>
               </Col>
             </Row>
+            {/* END CV & Portfolio buttons */}
           </Col>
         </Row>
+        {/* END info & image*/}
         <hr className="mt-5 mb-5"></hr>
       </Container>
       {/* END About info */}
