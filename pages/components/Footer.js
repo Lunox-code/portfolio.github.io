@@ -6,8 +6,7 @@ function Footer() {
     <div>
       <Wave
         className="wavefoot"
-        fill="#D65A31"
-        transform="rotate(360)"
+        fill="url(#gradient1)"
         responsive="true"
         options={{
           height: 40,
@@ -15,7 +14,14 @@ function Footer() {
           speed: 0.16,
           points: 4,
         }}
-      ></Wave>
+      >
+        <defs>
+          <linearGradient id="gradient1">
+            <stop offset="90%" stopColor="#D65A31" />
+            <stop offset="90%" stopColor="#D65A31" />
+          </linearGradient>
+        </defs>
+      </Wave>
     </div>
   );
 }
