@@ -17,7 +17,7 @@ function Footer() {
       >
         <defs>
           <linearGradient id="gradient1">
-            <stop offset="90%" stopColor="#D65A31" />
+            <stop offset="10%" stopColor="#D65A31" />
             <stop offset="90%" stopColor="#D65A31" />
           </linearGradient>
         </defs>

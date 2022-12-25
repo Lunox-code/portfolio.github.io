@@ -46,7 +46,6 @@ span.me, span.skills {
 }
 /* END Who am I */
 
-
 /* About subtitle */
 span.about {
   color: #EEEEEE;
@@ -70,7 +69,6 @@ span.about::after {
   background-color: #D65A31;
 }
 /* END Progress skill bar */
-
 
 /* Waves Foot */
 .wave {
