@@ -22,6 +22,7 @@
     "react": "18.2.0",
     "react-bootstrap": "^2.7.0",
     "react-dom": "18.2.0",
-    "react-moving-text": "^0.0.7"
+    "react-moving-text": "^0.0.7",
+    "react-wavify": "^1.7.0"
   }
 }

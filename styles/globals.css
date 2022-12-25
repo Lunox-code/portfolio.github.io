@@ -16,7 +16,6 @@ main {
   font-weight: 600;
 
 }
-
 /* END Hello Moving letter */
 
 p, hr {
@@ -71,3 +70,10 @@ span.about::after {
   background-color: #D65A31;
 }
 /* END Progress skill bar */
+
+
+
+.wave {
+  background-color: #D65A31;
+
+}

@@ -10,14 +10,34 @@ import {
   faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
 import MovingText from "react-moving-text";
+import Wave from "react-wavify";
 
 function Header() {
   return (
     <div>
-      <Image
+      <Wave
+        className="wave"
+        fill="url(#gradient)"
+        transform="rotate(360)"
+        responsive="true"
+        options={{
+          height: 40,
+          amplitude: 40,
+          speed: 0.16,
+          points: 4,
+        }}
+      >
+        <defs>
+          <linearGradient id="gradient" gradientTransform="rotate(90)">
+            <stop offset="10%" stopColor="#222831" />
+            <stop offset="90%" stopColor="#222831" />
+          </linearGradient>
+        </defs>
+      </Wave>
+      {/* <Image
         src="https://lunox-code.github.io/portfolio.github.io/assets/wave.svg"
         alt=" "
-      />
+      /> */}
       <Container className="mt-3 mb-5">
         <Row
           xs={1}
