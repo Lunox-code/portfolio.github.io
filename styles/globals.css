@@ -72,8 +72,14 @@ span.about::after {
 /* END Progress skill bar */
 
 
-
+/* Waves Foot */
 .wave {
   background-color: #D65A31;
 
 }
+
+.wavefoot {
+  background-color: #222831;
+
+}
+/* END Waves Foot */

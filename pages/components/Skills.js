@@ -12,7 +12,7 @@ function Skills() {
 
   return (
     <div>
-      <Container className=" justify-content-md-center text-center">
+      <Container className="mb-5 mt-5 justify-content-md-center text-center">
         <Row>
           <Col
             data-aos="zoom-in"
@@ -123,8 +123,6 @@ function Skills() {
             </div>
           </Col>
         </Row>
-        <br></br>
-        <hr></hr>
       </Container>
     </div>
   );
