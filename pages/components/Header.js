@@ -21,8 +21,8 @@ function Header() {
         transform="rotate(360)"
         responsive="true"
         options={{
-          height: 40,
-          amplitude: 40,
+          height: 30,
+          amplitude: 30,
           speed: 0.16,
           points: 4,
         }}
@@ -38,7 +38,7 @@ function Header() {
         src="https://lunox-code.github.io/portfolio.github.io/assets/wave.svg"
         alt=" "
       /> */}
-      <Container className="mt-3 mb-5">
+      <Container className="mb-5">
         <Row
           xs={1}
           md={2}
@@ -59,7 +59,7 @@ function Header() {
                 ]}
               />
             </div>
-            <div data-aos="zoom-in-right" className="mb-5 mt-5">
+            <div data-aos="zoom-in-right" className="mb-5">
               <a
                 href="https://www.linkedin.com/in/lunox/"
                 alt=" "
